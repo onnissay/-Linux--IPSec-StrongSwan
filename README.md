@@ -18,7 +18,7 @@ default via your_server_ip dev eth0  proto static
 После **dev** будет нужный интерфейc, в данном случае это **eth0**. Вставьте в скрипте ваш интерфейс, используйте поиск для этого. Замените в скрипте все eth0 на ваш сетевой интерфейс.
 Для запуска скрипта используйте команду
 ```
-yes | sudo sh startswan.sh
+yes | sudo sh strongswan_autodeveler.sh
 ```
 
 
